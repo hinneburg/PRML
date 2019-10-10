@@ -7,7 +7,7 @@ setup(
     description="Collection of PRML algorithms",
     author="ctgk",
     python_requires=">=3.6",
-    install_requires=["numpy", "scipy", "jupyter", "matplotlib", "skylearn"],
+    install_requires=["numpy", "scipy", "jupyter", "matplotlib", "sklearn"],
     packages=find_packages(exclude=["test", "test.*"]),
     test_suite="test"
 )
